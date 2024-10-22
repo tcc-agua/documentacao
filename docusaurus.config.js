@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WISE',
-  tagline: 'Waterground Information & Sampling Engine',
-  favicon: 'img/favicon.ico',
+  tagline: 'Waterground Information and Sampling Engine',
+  favicon: 'img/Logo.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -76,8 +76,8 @@ const config = {
       navbar: {
         title: 'WISE',
         logo: {
-          alt: 'WISE',
-          src: 'img/logo.svg',
+          alt: 'My Site Logo',
+          src: 'img/Logo.svg',
         },
         items: [
           {
@@ -101,11 +101,11 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Community',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub',
+                href: 'https://github.com/tcc-agua',
               },
             ],
           },

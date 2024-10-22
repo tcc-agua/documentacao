@@ -1,19 +1,51 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(45deg, #00A4FD, #A1DFDB);
+  background-size: 200% 200%; /* Ajustado para dar mais espaço para a animação */
+  animation: gradientAnimation 5s linear infinite; /* Animação contínua */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 50%; /* Inicia do lado direito */
+  }
+  50% {
+    background-position: 0% 50%; /* Move para o lado esquerdo */
+  }
+  100% {
+    background-position: 100% 50%; /* Retorna ao lado direito */
+  }
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+}
+
+.heroBanner::before {
+  content: '';
+  position: absolute;
+  width: 150px; /* Tamanho do círculo de luz */
+  height: 150px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.288), transparent 40%);
+  border-radius: 50%;
+  pointer-events: none; /* Para que o mouse não interaja com o pseudo-elemento */
+  transform: translate(-50%, -50%); /* Centraliza o círculo no mouse */
+  opacity: 0; /* Inicialmente invisível */
+  transition: opacity 0.3s ease-out;
+}
+
+.heroBanner:hover::before {
+  opacity: 1; /* Torna visível ao passar o mouse */
+}
+
+.heroBanner::before {
+  left: var(--circle-x);
+  top: var(--circle-y);
 }
 
 .buttons {
