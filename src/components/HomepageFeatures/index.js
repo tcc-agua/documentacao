@@ -30,7 +30,7 @@ const FeatureList = [
     imgProps: { width: 200, height: 'auto' },
     description: (
       <>
-        O <b>Digital Talent Academy</b> é um programa da Bosch que desenvolve novos profissionais de Tecnologia, combinando formação técnica do <b>SENAI</b> com aprendizado prático na própria empresa, voltado para aprendizes da <b>ETS</b>.
+        O <b>Digital Talent Academy</b> é um programa da Bosch que desenvolve novos profissionais de Tecnologia, voltado para aprendizes da <b>ETS</b>.
       </>
     ),
   },

@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Time responsável pelo desenvolvimento do WISE!
 
-![Amber](/img/amber.png)
+![Amber](/img/amber.svg)
 
 **Amber Forte** |
 Desenvolvedora Full-Stack
@@ -16,7 +16,7 @@ Desenvolvedora Full-Stack
 
 
 
-![Docusaurus](/img/caio.png)
+![Docusaurus](/img/caio.svg)
 
 **Caio Farias** |
 Desenvolvedor Full-Stack
@@ -26,7 +26,7 @@ Desenvolvedor Full-Stack
 
 
 
-![Docusaurus](/img/kamila.png)
+![Docusaurus](/img/ingrid.svg)
 
 **Kamila Carvalho** |
 Desenvolvedora Front-end
@@ -36,7 +36,7 @@ Desenvolvedora Front-end
 
 
 
-![Docusaurus](/img/laura.png)
+![Docusaurus](/img/laura.svg)
 
 **Laura Dias** |
 Desenvolvedora Full-Stack
@@ -46,7 +46,7 @@ Desenvolvedora Full-Stack
 
 
 
-![Docusaurus](/img/ludmyla.png)
+![Docusaurus](/img/ludmyla.svg)
 
 **Ludmyla Muniz** |
 Desenvolvedora Front-End & UI/UX Designer
@@ -55,7 +55,7 @@ Desenvolvedora Front-End & UI/UX Designer
 [![Linkedin](/img/linkedin.svg)](https://www.linkedin.com/in/ludmyla-muniz/)
 
 
-![Docusaurus](/img/stella.png)
+![Docusaurus](/img/stella.svg)
 
 **Stella Nascimento** |
 Desenvolvedora Front-End, UI/UX Designer & Designer Gráfica
