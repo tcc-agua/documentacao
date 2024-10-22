@@ -2,46 +2,16 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introdução
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Venha conhecer o WISE em 1 minuto, um projeto desenvolvido em parceria entre o SENAI Roberto Mange e a Bosch Brasil – Digital Talent Academy.
 
-## Getting Started
+### Bosch Curitiba
 
-Get started by **creating a new site**.
+- Na Bosch Curitiba, existem diversos pontos de coleta de água distribuídos por toda a planta.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+ - Os técnicos são responsáveis por visitar esses locais para realizar a amostragem de água e registrar os dados coletados. Essas informações são posteriormente enviadas para análise de qualidade, assegurando o cumprimento das normas e regulamentos legais pertinentes.
 
-### What you'll need
+### Solução
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+O WISE foi criado para otimizar o monitoramento e a gestão da água na planta da Bosch em Curitiba. Este sistema visa facilitar a coleta e o armazenamento de dados hídricos, promovendo um uso mais eficiente e sustentável dos recursos hídricos dentro da planta.

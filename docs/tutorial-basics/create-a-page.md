@@ -2,42 +2,17 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Faça uma coleta
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Na aba **Coletas** ou **Consumo de Água**, escolha a planilha na qual deseja realizar a coleta.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
 
-## Create your first React Page
+### Como localizar o ponto de coleta desejado? 
 
-Create a file at `src/pages/my-react-page.js`:
+No mapa da planilha, você terá acesso a todos os pontos dessa planilha específica. Localize o ponto desejado na planta para prosseguir com a coleta.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+Selecione o **ponto de coleta** desejado no lado esquerdo da tela e insira os dados da amostragem. Após concluir, clique no botão **Salvar** para armazenar as informações inseridas.
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+Após coletar os dados de todos os pontos da planilha selecionada, clique no botão **Salvar Dados** para armazenar todas as informações.
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+#### Parabéns! Você concluiu a coleta com sucesso!
