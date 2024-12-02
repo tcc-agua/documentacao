@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Faça uma coleta
+# 💦 Faça uma coleta
 
 Na aba **Coletas** ou **Consumo de Água**, escolha a planilha na qual deseja realizar a coleta.
 
